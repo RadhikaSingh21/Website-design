@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luma&Leaf</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/blaze-slider@latest/dist/blaze.css"
+    />
+  </head>
+
+  <body>
+    <article>
+      <header>
+        <div class="header-wrapper">
+          <nav>
+            <div class="sale-banner">
+              <p class="sale-text">SHIP IT GOOD - FREE SHIPPING OVER $60</p>
+              <span class="close-btn" onclick="closeBanner()">&times;</span>
+            </div>
+            <div class="main-header">
+              <div class="hamburger-menu" onclick="toggleMenu()">
+                <div class="hamburger-container">
+                  <div class="hamburger-bars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="nav-icons">
+                    <a href="search">
+                      <img
+                        class="icons"
+                        src="./assets/search.svg"
+                        alt="Search Icon"
+                      />
+                    </a>
+                    <a href="account">
+                      <img
+                        class="icons"
+                        src="./assets/account.svg"
+                        alt="Account Icon"
+                      />
+                    </a>
+                    <a href="cart">
+                      <img
+                        class="icons"
+                        src="./assets/cart.svg"
+                        alt="Cart Icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-links">
+                <div class="links-header">
+                  <a href="#"
+                    >Shop<img
+                      class="icons"
+                      src="./assests/Homepage_Desktop/dropdown.svg"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    >About<img
+                      class="icons"
+                      src="./assests/Homepage_Desktop/dropdown.svg"
+                      alt=""
+                  /></a>
+                  <a href="#">The greenery</a>
+                </div>
+                <div class="img-logo">
+                  <a href="/pages/product-detail-page.html"><img src="./assests/Homepage_Desktop/Group 1.svg" alt="" /></a>
+                </div>
+                <div class="nav-icons">
+                  <a href="search"
+                    ><img
+                      class="icons"
+                      src="./assests/Homepage_Desktop/search.svg"
+                      alt=""
+                  /></a>
+                  <a href="account"
+                    ><img
+                      class="icons"
+                      src="./assests/Homepage_Desktop/account.svg"
+                      alt=""
+                  /></a>
+                  <a href="cart"
+                    ><img
+                      class="icons"
+                      src="./assests/Homepage_Desktop/cart.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="main-container">
+            <img
+              src="./assests/Homepage_Desktop/DeshleeCouch_Lifestyle8.png"
+              alt=""
+            />
+            <p class="main-text">
+              Natural, Plant-Powered Beauty
+             <a href="/pages/product-detail-page.html"> <button class="shop-now">shop now &gt;</button></a>
+            </p>
+            <section>
+              <div class="main-content">
+                <p class="section-main-content">
+                  Skincare as Nature Intended. Formulated without parabens,
+                  sulfates, harmful alcohols, synthetic dyes, artificial
+                  fragrances, animal products, animal testing, and other bad
+                  stuff.
+                </p>
+              </div>
+            </section>
+            <section class="section-main-content-type">
+              <div>
+                <img src="./assests/Homepage_Desktop/Group 1125.svg" alt="" />
+              </div>
+            </section>
+            <section>
+              <div class="section-main-content">
+                <img src="./assests/Homepage_Desktop/Group 2503.svg" alt="" />
+                <p class="content">Shop Our Skin-Loving Lineup</p>
+                <p class="sub-content">
+                  Skincare formulated for hydrated, nourished, hey-good-looking
+                  skin.
+                </p>
+              </div>
+              <div class="slider">
+                <div class="slider-wrapper">
+                  <button
+                    id="prev-slide"
+                    class="slide-button material-symbols-rounded"
+                  >
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <div class="image-container">
+                    <ul class="image-list">
+                     
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup1.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup2.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup3.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup1.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup2.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="image-item-container">
+                          <img
+                            class="image-item"
+                            src="./assests/Homepage_Desktop/L&L_Website_lineup3.png"
+                            alt="img-1"
+                          />
+                          <a href="#" class="wishlist"
+                            ><i class="m_icon heart_icon"></i
+                          ></a>
+                          <span class="details">
+                            <p class="name-content">
+                              Relief & Repair Moisturizer
+                            </p>
+                            <p class="long-content">
+                              A moisturizer for dry, sensitive skin that
+                              seriously hydrates and soothes.
+                            </p>
+                            <div class="shop-slider">
+                              <p class="price">$0.00</p>
+                              <button class="Add-to-cart">
+                                Add to Cart &gt;
+                              </button>
+                            </div>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    id="next-slide"
+                    class="slide-button material-symbols-rounded"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+                <div class="slider-scrollbar">
+                  <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        
+          </div>
+          
+        </div>
+      </main>
+      <section class="rect-layout">
+        <p class=" p-tag">Word on the Street!</p>
+        <div class="img-layout">
+        <img src="/assests/Homepage_Desktop/Group 2531.png" alt="">
+        <img src="/assests/Homepage_Desktop/Group 2531.png" alt="">
+      </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <img
+            class="content-overlay"
+            src="./assests/Homepage_Desktop/L&L_ReadytoHydrate copy.png"
+            alt="Footer Image"
+            class="footer-image"
+          />
+          <div class="overlay">
+            <p class="text">Ready to Hydrate?</p>
+            <div class="left">
+              <button class="shop">shop now &gt;</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="footer-section">
+            <div class="footer-right">
+              <div class="footer-right-content">
+                <div class="footer-col">
+                  <h4>About</h4>
+                  <ul class="links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Promise</a></li>
+                    <li><a href="#">Shipping / Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>More Info</h4>
+                  <ul class="links">
+                    <li><a href="#">The Greenery</a></li>
+                    <li><a href="#">Skin Glossary</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">COA</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>Get in Touch</h4>
+                  <ul class="links">
+                    <p class="footer-text">
+                      Have a question? Want to just say hello? Send us a message
+                      anytime at <span class="mail">hello@lumaandleaf.com</span>
+                    </p>
+                    <p class="footer-text">
+                      The information and products on this site have not been
+                      evaluated by the FDA. The products are not intended to
+                      Diagnose, treat, cure or prevent any disease.
+                    </p>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>All of the Tea. None of the Spam.</h4>
+                  <div class="form">
+                    <form class="email-form">
+                      <div class="form-group">
+                        <input type="email" id="email" name="email" required />
+                        <label for="email">Enter your email</label>
+                        <div class="underline"></div>
+                      </div>
+                    </form>
+                    
+                  <button class="Signup">Sign up  ></button>
+                </div>
+                <div class="footer-logo">
+                  <div class="social">
+                  <img src="./assests/Homepage_Desktop/Path 8341.svg" alt="">
+                 
+                  
+                  <div class="social-icon">
+                    <a href="#"><img src="./assests/Homepage_Desktop/instagram.svg" alt=""></a>
+                    <a href="#"><img src="./assests/Homepage_Desktop/facebook.svg" alt=""></a>
+                    <a href="#"><img src="./assests/Homepage_Desktop/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assests/Homepage_Desktop/pinterest.svg" alt=""></a>
+
+
+                  
+                  </div>
+                
+                </div>
+                </div>
+                <div class="copyright">
+                  <p class="copyright">2020 Luma & Leaf. All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </article>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/hamburger.js"></script>
+  </body>
+</html>

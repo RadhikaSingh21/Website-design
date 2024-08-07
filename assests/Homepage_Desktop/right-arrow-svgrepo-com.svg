@@ -1,0 +1,6 @@
+<a href="#">
+  Next
+  <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M1.5 8l6-6 1.5 1.5L4.5 8l4.5 4.5L7.5 14l-6-6z"/>
+  </svg>
+</a>

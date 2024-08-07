@@ -1,0 +1,298 @@
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.hamburger-container {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-bars {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hamburger-bars span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons a {
+  margin-left: 15px;
+}
+
+.icons {
+  height: 20px;
+  width: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    z-index: 1;
+    background: white;
+    align-items: flex-start;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .links a {
+    margin: 10px 0;
+  }
+
+  .nav-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .img-logo {
+    margin-bottom: 10px;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+  }
+
+  .dropdown-content.active {
+    display: flex;
+  }
+
+  .dropdown-content a {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sale-banner {
+    padding: 10px 20px;
+    text-align: left;
+  }
+
+  .close-btn {
+    top: 10px;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hamburger-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .nav-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .hamburger-bars {
+    margin-right: 15px;
+  }
+  .text {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .nav-links,
+  .nav-icons {
+    gap: 15px;
+  }
+
+  .main-text {
+    font-size: 48px;
+  }
+
+  .image-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sale-text {
+    font-size: 12px;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+  }
+
+  .img-logo {
+    position: relative;
+    margin-bottom: 20px;
+    left: 0;
+    transform: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .main-text {
+    font-size: 36px;
+  }
+
+  .image-list {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-right-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-col {
+    margin-bottom: 20px;
+  }
+  .text {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sale-text {
+    font-size: 10px;
+  }
+
+  .sale-banner {
+    padding: 5px 10px;
+  }
+
+  .main-text {
+    font-size: 24px;
+  }
+
+  .shop-now {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .shop-slider .Add-to-cart {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .footer-right-content {
+    gap: 20px;
+  }
+
+  .Signup {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .form-group label,
+  .form-group input[type="email"] {
+    font-size: 12px;
+  }
+
+  .social {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .social img {
+    margin-bottom: 10px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    top: 0;
+  }
+  .text {
+    padding-top: 50px;
+  }
+}
